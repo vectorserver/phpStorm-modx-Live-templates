@@ -2,7 +2,7 @@
 
 1. Go to *PhpStorm Preferences | Tools | Settings Repository*
 
-2. Add Read-only Source https://github.com/CrazyBoy49z/PhpStorm-Live-Templates-MODX
+2. Add Read-only Source https://github.com/vectorserver/phpStorm-modx-Live-templates
 
 3. Restart PhpStorm
 
