@@ -1,0 +1,80 @@
+<templateSet group="MODX_REVO">
+  <template name="[[*id]]" value="[[*id]]" description="Идентификатор ресурса страницы (устанавливается MODX при создании страницы." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*pagetitle]]" value="[[*pagetitle]]" description="Название страницы." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*longtitle]]" value="[[*longtitle]]" description="Расширенный заголовок страницы" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*description]]" value="[[*description]]" description="Описание страницы" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*introtext]]" value="[[*introtext]]" description="вводное текстовое поле (a.k.a. резюме)." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*parent]]" value="[[*parent]]" description="Идентификатор родительской страницы (если есть). Устанавливается MODX при создании страницы. Может быть изменено пользователем." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*menutitle]]" value="[[*menutitle]]" description="Название используется, когда страница появляется в меню." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*content]]" value="[[*content]]" description="Cодержание страницы." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[++site_url]]" value="[[++site_url]]" description="Содержит URL для вашего сайта" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[++site_name]]" value="[[++site_name]]" description="Название сайта" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[*id:is=`1`:and:if=`[[*id]]`:ne=`2`:then=`Да`:else=`Нет`]]" value="[[*id:is=`1`:and:if=`$ID$`:ne=`2`:then=`Да`:else=`Нет`]]" description="if - задает дополнительное условие. input - добавляет в тег обратываемые данные" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="[[*id]]" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
