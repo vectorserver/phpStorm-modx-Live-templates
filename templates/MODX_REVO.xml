@@ -77,4 +77,112 @@
       <option name="Twig" value="true" />
     </context>
   </template>
+  <template name="[^qt^]" value="[^qt^]" description="Выводит время потраченное на запросы к базе данных" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[^q^]" value="[^q^]" description="Выводит количество запросов к базе данных" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[^p^]" value="[^p^]" description="Выводит время потраченное на работу PHP скриптов" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[^t^]" value="[^t^]" description="Выводит общее время потраченное на генерацию страницы" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[^s^]" value="[^s^]" description="Выводит источник содержимого (база данных или кэш)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[pdoResources]]" value="[[pdoResources?&#10;    &amp;parents=`$PARENTS$`&#10;    &amp;tpl=`$TPL$`&#10;    &amp;includeTVs=`$TV$`&#10;]]&#10;&lt;!--https://docs.modx.pro/komponentyi/pdotools/snippetyi/pdoresources--&gt;" description="Сниппет предназначен для вывода списка ресурсов." toReformat="false" toShortenFQNames="true">
+    <variable name="PARENTS" expression="" defaultValue="1" alwaysStopAt="true" />
+    <variable name="TPL" expression="" defaultValue="ListRowTpl" alwaysStopAt="true" />
+    <variable name="TV" expression="" defaultValue="image" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#POST.key]]" value="[[#POST.key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#SESSION.another_key]]" value="[[#SESSION.another_key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#GET.key]]" value="[[#GET.key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#REQUEST.key]]" value="[[#REQUEST.key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#SERVER.key]]" value="[[#SERVER.key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#FILES.key]]" value="[[#FILES.key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#COOKIE.some_key]]" value="[[#COOKIE.some_key]]" description="Теги fastField" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[#DOCID.pagetitle]]" value="[[#DOCID.pagetitle]]" description="Вывод обычных полей ресурсов:" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="[[+modx.user.id]]" value="[[+modx.user.id]]" description="USER" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="TPL" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
 </templateSet>
